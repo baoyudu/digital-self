@@ -1,0 +1,22 @@
+{
+  "name": "digital-self",
+  "owner": {
+    "name": "Bao Yu",
+    "email": "baoyudu@outlook.com"
+  },
+  "metadata": {
+    "description": "Build a digital portrait of yourself through deep AI conversations",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "digital-self",
+      "description": "A skill that guides you through deep, reflective conversations to build a comprehensive digital self-portrait in markdown. The output can be used as context for any AI agent to quickly understand who you are.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/digital-self"
+      ]
+    }
+  ]
+}
